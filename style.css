@@ -34,3 +34,8 @@ body{margin: 0;
   color: white;
 }
 
+#about{
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 16px;
+}
