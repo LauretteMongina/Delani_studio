@@ -1,0 +1,36 @@
+body{margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+#one{
+  background-image: url("./images/backgrounds/h_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 17%;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+#two{
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+#two img{
+       width: 5%;
+}
+#three{
+  margin-top: 11%;
+  justify-content: center;
+}
+#four{
+  padding-top: 3%;
+  display: block;
+  text-align: center;
+  margin-top: 0;
+  color: white;
+}
+
