@@ -35,7 +35,13 @@ body{margin: 0;
 }
 
 #about{
-  padding-left: 3%;
-  padding-right: 3%;
-  font-size: 16px;
+  font-size: 15px;
+}
+#five{
+  text-align: center;
+}
+#services{
+  background-image: url("./images/backgrounds/s_image.jpg");
+  padding-top: 32%;
+  color: white;
 }
