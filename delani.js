@@ -31,5 +31,76 @@ $(document).ready(function(){
 });
 // portfolio
 $(document).ready(function(){
-  
-})
+  $("#work1").hover(
+    function () {
+      $(this).addClass("overlay");
+      $(".overlay1").show();
+    },
+    function () {
+      $(".overlay1").hide();
+    }
+  );
+  $("#work2").hover(
+    function () {
+      $(this).addClass("overlay");
+      $(".overlay2").show();
+    },
+    function () {
+      $(".overlay2").hide();
+    }
+  );
+  $("#work3").hover(
+    function () {
+      $(this).addClass("overlay");
+      $(".overlay3").show();
+    },
+    function () {
+      $(".overlay3").hide();
+    }
+  );
+  $("#work4").hover(
+    function () {
+      $(this).addClass("overlay");
+      $(".overlay4").show();
+    },
+    function () {
+      $(".overlay4").hide();
+    }
+  );
+  $("#work5").hover(
+    function () {
+      $(this).addClass("overlay");
+      $(".overlay5").show();
+    },
+    function () {
+      $(".overlay5").hide();
+    }
+  );
+  $("#work6").hover(
+    function () {
+      $(this).addClass("overlay");
+      $(".overlay6").show();
+    },
+    function () {
+      $(".overlay6").hide();
+    }
+  );
+  $("#work7").hover(
+    function () {
+      $(this).addClass("overlay");
+      $(".overlay7").show();
+    },
+    function () {
+      $(".overlay7").hide();
+    }
+  );
+  $("#work8").hover(
+    function () {
+      $(this).addClass("overlay");
+      $(".overlay8").show();
+    },
+    function () {
+      $(".overlay8").hide();
+    }
+  );
+});
