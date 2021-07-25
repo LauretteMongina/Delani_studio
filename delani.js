@@ -27,10 +27,7 @@ $(document).ready(function(){
     $('#development_image').show();
     $('#development').hide();
   });
-
-});
 // portfolio
-$(document).ready(function(){
   $("#work1").hover(
     function () {
       $(this).addClass("overlay");
@@ -102,24 +99,22 @@ $(document).ready(function(){
     function () {
       $(".overlay8").hide();
     }
-  );
-});
+    );
 // Back-end
-$(document).ready(function(){
-  $("form").submit(function(event){
-    var name = $("#name").val();
-    var email = $("#email").val();
-    var text  = $("#message").val();
+  function getInput(){
+    var name = document.getElementById("name").value;
+    var email = document.getElementB("email").value;
+    var text  = document.getElementById("message").value;
 // check for inputs
-    if(email == ""){
-      alert("Input email")
+
+        if(name == ""){
+        return alert("Input name");
+     }
+        else if(email == ""){
+        return alert("Input valid email")
+     }
+     else{
+       return alert("Hey" + name + "we have received your message. Thank you for reaching out")
+     }
     }
-    else if(name == ""){
-      alert("Please input name")
-    }
-    else{
-      alert("Hey"+ ""+ name + "your message has been received. Thank you!")
-    }
-    event.preventdefault();
-  })
-})
+  });
