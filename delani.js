@@ -104,3 +104,22 @@ $(document).ready(function(){
     }
   );
 });
+// Back-end
+$(document).ready(function(){
+  $("form").submit(function(event){
+    var name = $("#name").val();
+    var email = $("#email").val();
+    var text  = $("#message").val();
+// check for inputs
+    if(email == ""){
+      alert("Input email")
+    }
+    else if(name == ""){
+      alert("Please input name")
+    }
+    else{
+      alert("Hey"+ ""+ name + "your message has been received. Thank you!")
+    }
+    event.preventdefault();
+  })
+})
