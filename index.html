@@ -100,30 +100,54 @@
   <div class="container" id="portfolio">
     <h2>PORTFOLIO</h2>
     <div class="row" >
-      <div class="col-md-3">
+      <div class="col-md-3" id="work1" >
+        <div class="position-absolute m-7 overlay1" id="overlay1">
+          <p>BALEY <br>WANGER</p>
+         </div>
         <img src="./images/portfolio/work4.jpg" alt="">
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3" id="work2" >
+        <div class="position-absolute m-7 overlay2" id="overlay2">
+          <p>MIGHTY <br>ONTARIO <br>SECURITY</p>
+         </div>
         <img src="./images/portfolio/work3.jpg" alt="">
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3" id="work3" >
+        <div class="position-absolute m-7 overlay3" id="overlay3">
+          <p>BALEY <br>WANGER</p>
+         </div>
         <img src="./images/portfolio/work2.jpg" alt="">
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3" id="work4" >
+        <div class="position-absolute m-7 overlay4" id="overlay4">
+          <p>WEATHER <br>APP</p>
+         </div>
         <img src="./images/portfolio/work1.jpg" alt="">
       </div>
     </div>
     <div class="row" style="padding-top: 3%;">
-      <div class="col-md-3">
+      <div class="col-md-3" id="work5">
+        <div class="position-absolute m-7 overlay5" id="overlay5">
+          <p>ALEXA</p>
+         </div>
       <img src="./images/portfolio/work5.jpg" alt="">
       </div>
-    <div class="col-md-3">
+    <div class="col-md-3" id="work6">
+      <div class="position-absolute m-7 overlay6" id="overlay6">
+        <p>BALEY <br>WANGER</p>
+       </div>
       <img src="./images/portfolio/work6.jpg" alt="">
-      </div>
-    <div class="col-md-3">
+    </div>
+    <div class="col-md-3" id="work7">
+      <div class="position-absolute m-7 overlay7" id="overlay7">
+        <p>BURNED <br>LOGO</p>
+    </div>
       <img src="./images/portfolio/work7.jpg" alt="">
+    </div>
+    <div class="col-md-3" id="work8">
+      <div class="position-absolute m-7 overlay8" id="overlay8">
+        <p>GIRAFFE <br>RESTAURANT</p>
       </div>
-    <div class="col-md-3">
       <img src="./images/portfolio/work8.jpg" alt="">
       </div>
   </div>
@@ -134,15 +158,16 @@
    <h2>CONTACT US</h2>
    <form>
     <div class="form-row" style="display: flex;justify-content: center">
-      <div class="col-5" id="name">
+      <div class="col-4" id="name">
         <input type="text" class="form-control" placeholder="Name...">
       </div>
-      <div class="col-5" id="email">
+      <div class="col-4" id="email">
         <input type="text" class="form-control" placeholder="Email...">
       </div>
-      <div class="row" style="padding-top: 3%;">
-        <textarea name="message" class="form-control" placeholder="Write your message here" cols="75" rows="10" >
+      <div class="row" style="padding-top: 3%;padding-bottom: 9%;">
+        <textarea name="message" class="form-control" placeholder="Write your message here" cols="60" rows="6">
         </textarea>
+        <button class="btn btn-primary" type="submit" value="submit" onclick = "getInput()" style="margin-top: 3%;background-color: transparent;">Submit</button>
       </div>
     </div>
   </form>
