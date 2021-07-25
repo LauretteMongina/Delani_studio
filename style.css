@@ -63,8 +63,10 @@ body{
   text-align: center;
 }
 #design,#product,#development{
-  display: flex;
-  justify-content: center;
+   text-align: center;}
+h4{
+  text-align: center;
+  font-weight: bold;
 }
 h2{
   text-align: center;
@@ -84,7 +86,7 @@ h2{
   background-image: url("./images/backgrounds/c_image.jpg");
   background-size: cover;
   width: 100%;
-  padding-top: 15%;
+  padding-top: 5%;
   padding-bottom: 15%;
 }
 #icons img{
@@ -93,4 +95,21 @@ h2{
 #studio{
   display: block;
   text-align: center;
+}
+textarea{
+  background:transparent
+}
+.form-control{
+  background:transparent;
+  padding-top: 3%;
+}
+.form-control::placeholder{
+  color: white;
+}
+#contact h2{
+  color: white;
+}
+#design,#product,#development{
+  display: none;
+  font-size: 14px;
 }
