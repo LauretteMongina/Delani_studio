@@ -59,31 +59,40 @@
   <!-- what we do -->
   <div class="container">
     <h2>WHAT WE DO</h2>
-    <div class="row no-gutters">
-        <div class="col">
-          <div id="design">
+    <div class="row">
+        <div class="col-md-4">
             <div id="design_image">
-              <img src="./images/services_icons/design_icon.png" alt="">
-              <p>DESIGN</p>
-
+              <img src="./images/services_icons/design_icon.png" class="initially-showing" alt="">
+              <p style="font-weight: bold;">DESIGN</p>
             </div>
-          </div>
+            <div id="design">
+              <h4>DESIGN</h4>
+              <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+              <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
+              </p>
+            </div>
         </div>
-        <div class="col">
-          <div id="development">
+        <div class="col-md-4">
             <div id="development_image">
-              <img src="./images/services_icons/dev_icon.png" alt="">
-              <p>DEVELOPMENT</p>
+              <img src="./images/services_icons/dev_icon.png" class="initially-showing" alt="">
+              <p style="font-weight: bold;">DEVELOPMENT</p>
             </div>
-          </div>
+            <div id="development">
+              <h4>DEVELOPMENT</h4>
+              <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+              <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+            </div>
         </div>
-        <div class="col">
-          <div id="product">
+        <div class="col-md-4">
             <div id="product_image">
-              <img src="./images/services_icons/product_icon.png"  alt="">
-              <p>PRODUCT MANAGEMENT</P>
+              <img src="./images/services_icons/product_icon.png" class="initially-showing" alt="">
+              <p style="font-weight: bold;">PRODUCT MANAGEMENT</P>
             </div>
-          </div>
+            <div id="product">
+              <h4>PRODUCT MANAGEMENT</h4>
+              <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+              <p>This iterative process allows for changes as business requirements evolve.</p>
+            </div>
         </div>
       </div>
     </div>
@@ -124,16 +133,19 @@
  <div class="container" id="contact">
    <h2>CONTACT US</h2>
    <form>
-    <div class="form-row">
-      <div class="col-5">
+    <div class="form-row" style="display: flex;justify-content: center">
+      <div class="col-5" id="name">
         <input type="text" class="form-control" placeholder="Name...">
       </div>
-      <div class="col-5">
+      <div class="col-5" id="email">
         <input type="text" class="form-control" placeholder="Email...">
+      </div>
+      <div class="row" style="padding-top: 3%;">
+        <textarea name="message" class="form-control" placeholder="Write your message here" cols="75" rows="10" >
+        </textarea>
       </div>
     </div>
   </form>
-   </div>
    </div>
    <!-- social media -->
    <div class="container" id="footer" style="display: block;">
