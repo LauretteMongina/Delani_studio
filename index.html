@@ -156,19 +156,19 @@
 <!-- contact -->
  <div class="container" id="contact">
    <h2>CONTACT US</h2>
-   <form>
+   <form id="formcontact">
     <div class="form-row" style="display: flex;justify-content: center">
-      <div class="col-4" id="name">
-        <input type="text" class="form-control" value="" placeholder="Name..." required>
+      <div class="col-4">
+        <input type="text" name="namei" id="namei" class="form-control" value="" placeholder="Name..." >
       </div>
-      <div class="col-4" id="email">
-        <input type="text" class="form-control" value="" placeholder="Email..." required>
+      <div class="col-4">
+        <input type="text" name="emaili" id="emaili" class="form-control" value="" placeholder="Email...">
       </div>
       <div class="row" style="padding-top: 3%;padding-bottom: 9%;">
         <textarea id="message" class="form-control"  placeholder = "Your message here" cols="60" rows="6"></textarea>
-        <button class="btn btn-primary" type="submit" value="submit" onclick = "getInput()" style="margin-top: 3%;background-color: transparent;">Submit</button>
-      </div>
-    </div>
+        </div>
+        </div>
+        <button class="btn btn-primary" type="submit" value="submit" onclick = "getInput()" style="display: block;background-color: transparent;margin-bottom: 5%;">Submit</button>
   </form>
    </div>
    <!-- social media -->
