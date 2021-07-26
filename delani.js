@@ -27,7 +27,9 @@ $(document).ready(function(){
     $('#development_image').show();
     $('#development').hide();
   });
+});
 // portfolio
+$(document).ready(function(){
   $("#work1").hover(
     function () {
       $(this).addClass("overlay");
@@ -100,21 +102,25 @@ $(document).ready(function(){
       $(".overlay8").hide();
     }
     );
+  });
 // Back-end
-  function getInput(){
-    var name = document.getElementById("name").value;
-    var email = document.getElementB("email").value;
-    var text  = document.getElementById("message").value;
 // check for inputs
 
-        if(name == ""){
-        return alert("Input name");
-     }
-        else if(email == ""){
-        return alert("Input valid email")
-     }
-     else{
-       return alert("Hey" + name + "we have received your message. Thank you for reaching out")
-     }
+$(document).ready(function(){
+  $("form#formcontact").submit(function(event){
+    event.preventDefault();
+    var name = $("input#namei").val();
+    var email = $("input#emaili").val();
+    var message = $("textarea#message").val();
+    if ($("input#namei").val() && $("input#emaili").val()){
+      alert ("Hey" + " " + name + " " + "we have received your message.Thank you for reaching out to us!")
     }
+    else if($("input#emaili").val() == ""){
+      alert("Input email")
+    }
+    else {
+      alert("Enter your name");
+    }
+    
   });
+})
